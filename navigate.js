@@ -19,7 +19,7 @@ export default function Navigate() {
             headerStyle: { backgroundColor: '#e091e0', height: 100 },
             headerTitleStyle: { fontWeight: 'normal'}
           }
-      }
+        }
       />
       <Stack.Screen 
         name="FullInfo"

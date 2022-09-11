@@ -1,6 +1,5 @@
 import React from "react";
-import { StyleSheet, View, Button, TextInput, } from "react-native";
-import { gStyle } from "../styles/style";
+import { StyleSheet, View, Button, TextInput } from "react-native";
 import { Formik } from 'formik';
 
 export default function Form({addArticle}) {
@@ -50,7 +49,8 @@ export default function Form({addArticle}) {
 const styles = StyleSheet.create({
   input: {
     borderWidth: 1,
-    marginTop: 15,
+    marginTop: 10,
+    marginBottom: 10,
     padding: 10,
     borderColor: 'silver',
     borderRadius: 5,

@@ -1,12 +1,12 @@
 import React, { useState } from "react";
-import { StyleSheet, Text, View, Button, Image } from "react-native";
+import { StyleSheet, Text, View, Image } from "react-native";
 import { gStyle } from "../styles/style";
 
 export default function Contacts( { route }) {
 
     return (
       <View style={gStyle.main}>
-        <Image style={styles.image} source= {{              
+        <Image style={styles.image} source= {{
               uri: route.params.img
             }}/>
         <Text style={[gStyle.title, styles.header]}>{route.params.name}</Text>
